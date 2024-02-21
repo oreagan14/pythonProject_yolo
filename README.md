@@ -10,7 +10,7 @@ Install the python version 3.9 or later than this version this is the link for i
 # Ultralytics requirements
 # Example: pip install -r requirements.txt
 
-# Base ----------------------------------------
+# Base 
 matplotlib>=3.3.0
 numpy>=1.22.2 # pinned by Snyk to avoid a vulnerability
 opencv-python>=4.6.0
@@ -24,17 +24,17 @@ tqdm>=4.64.0
 torch>=1.10.1
 torchvision>=0.10.1
 
-# Logging -------------------------------------
+# Logging 
 # tensorboard>=2.13.0
 # dvclive>=2.12.0
 # clearml
 # comet
 
-# Plotting ------------------------------------
+# Plotting 
 pandas>=1.1.4
 seaborn>=0.11.0
 
-# Export --------------------------------------
+# Export
 # coremltools>=7.0  # CoreML export
 # onnx>=1.12.0  # ONNX export
 # onnxsim>=0.4.1  # ONNX simplifier
@@ -46,7 +46,7 @@ seaborn>=0.11.0
 # tensorflowjs>=3.9.0  # TF.js export
 # openvino-dev>=2023.0  # OpenVINO export
 
-# Extras --------------------------------------
+# Extras 
 psutil  # system utilization
 py-cpuinfo  # display CPU info
 thop>=0.1.1  # FLOPs computation
@@ -55,4 +55,4 @@ thop>=0.1.1  # FLOPs computation
 # pycocotools>=2.0.6  # COCO mAP
 # roboflow
 
-For NVIDIA users after installing the tensorflow it may have a problem when running the python code. They may need to follow the instuction in this link https://www.TensorFlow.org/install/gpu.
+For NVIDIA users after installing the tensorflow it may have a problem when running the python code. They may need to follow the instruction in this link https://www.TensorFlow.org/install/gpu.
