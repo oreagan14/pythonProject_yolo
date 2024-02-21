@@ -8,6 +8,6 @@ To run the python code the computer must have installed the following:
 Install the python version 3.9 or later than this version this is the link for installation https://www.python.org/downloads/
 
 # Installing Ultralytics 
-use the command'pip install ultralytics==8.0.196'
+use the command 'pip install ultralytics==8.0.196'
 
 
